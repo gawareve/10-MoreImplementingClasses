@@ -324,6 +324,7 @@ class CapitalT(object):
         # IMPORTANT RESTRICTION: You are NOT permitted to add any instance
         # variables beyond  h_rect  and  v_rect, at any point of this exercise.
         #######################################################################
+
         newT=CapitalT(self.intersection_center,self.width,self.height,self.letter_thickness)
         newT.h_rect.outline_color=self.h_rect.outline_color
         newT.h_rect.fill_color = self.h_rect.fill_color
